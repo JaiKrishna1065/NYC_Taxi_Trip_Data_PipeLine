@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+etl_pipeline.log
+
+# Sensitive files
+db_config.py
+
+# Data folders (large files)
+data/raw/
+data/processed/
